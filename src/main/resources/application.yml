@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       auto-index-creation: true
-      uri: "mongodb+srv://${atlas.username}:${atlas.pwd}@${atlas.cluster}/${dbname}?retryWrites=true"
+      uri: "mongodb+srv://${atlas.username}:${atlas.pwd}@${atlas.cluster}/${atlas.dbname}?retryWrites=true"
 
 atlas:
   username: "encryptedusername"
