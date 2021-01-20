@@ -15,3 +15,8 @@ refer to swagger-ui for try-outs and more on documentation.
 
 - swagger json file (/contract/product-api.json)
 - swagger ui = http://host:port/swagger-ui.html
+
+Requirements to run:
+- Maven installed
+- MongoDb installed
+- Java (min 8)
