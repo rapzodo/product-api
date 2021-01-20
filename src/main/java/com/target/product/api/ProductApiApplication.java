@@ -30,7 +30,7 @@ public class ProductApiApplication {
             priceRepository.saveAll(Arrays.asList(
                     ProductPrice.builder()
                             .productId("13860428")
-                            .value(BigDecimal.valueOf(13.49))
+                            .value(BigDecimal.valueOf(14.00))
                             .currencyCode(Currency.USD.getCode())
                             .build(),
                     ProductPrice.builder()
