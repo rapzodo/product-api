@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: products-api
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: "mongodb+srv://${atlas.username}:${atlas.pwd}@cluster0-zswdi.mongodb.net/valetmedb?retryWrites=true"
+
+atlas:
+  username: "encryptedusername"
+  pwd: "encryptedpwd"
+
+server:
+  port: ${PORT}
+
+eureka:
+  instance:
+    instance-id: "${spring.application.name}:${spring.application.instance_id:${random.value}}"

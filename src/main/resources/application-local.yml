@@ -1,0 +1,9 @@
+server:
+  port: 6070
+feign:
+  hystrix:
+    enabled: true
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/test
