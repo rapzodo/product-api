@@ -4,11 +4,13 @@ spring:
   data:
     mongodb:
       auto-index-creation: true
-      uri: "mongodb+srv://${atlas.username}:${atlas.pwd}@cluster0-zswdi.mongodb.net/valetmedb?retryWrites=true"
+      uri: "mongodb+srv://${atlas.username}:${atlas.pwd}@${atlas.cluster}/${dbname}?retryWrites=true"
 
 atlas:
   username: "encryptedusername"
   pwd: "encryptedpwd"
+  cluster: "theatlascluster"
+  dbname: "thedatabasename"
 
 server:
   port: ${PORT}
