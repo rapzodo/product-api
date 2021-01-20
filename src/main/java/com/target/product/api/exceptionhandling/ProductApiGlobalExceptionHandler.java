@@ -3,7 +3,7 @@ package com.target.product.api.exceptionhandling;
 import com.target.product.api.exceptions.FeignClientException;
 import com.target.product.api.exceptions.NoRecordFoundException;
 import com.target.product.api.models.ErrorDetails;
-import com.target.product.exceptions.InvalidCurrencyException;
+import com.target.product.api.exceptions.InvalidCurrencyException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

@@ -1,4 +1,4 @@
-package com.target.product.exceptions;
+package com.target.product.api.exceptions;
 
 public class InvalidCurrencyException extends RuntimeException {
     public InvalidCurrencyException() {

@@ -6,7 +6,7 @@ import com.target.product.api.enums.Currency;
 import com.target.product.api.integration.feign.ProductsInternalServiceClient;
 import com.target.product.api.mapping.MappingFunctionFactory;
 import com.target.product.api.models.PriceUpdateRequest;
-import com.target.product.exceptions.InvalidCurrencyException;
+import com.target.product.api.exceptions.InvalidCurrencyException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
