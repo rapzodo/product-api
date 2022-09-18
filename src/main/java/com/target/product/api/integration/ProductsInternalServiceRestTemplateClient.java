@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Log4j2
 public class ProductsInternalServiceRestTemplateClient implements ProductsInternalServiceClient {
 
-    String GET_BY_URL = "https://<hidden>/{id}?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate";
+    String GET_BY_URL = "https://redsky.target.com/v3/pdp/tcin/{id}?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate";
 
     public Product getGetByTcinUrl(String id) {
         log.info("Fetching the product");
